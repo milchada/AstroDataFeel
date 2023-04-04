@@ -51,9 +51,8 @@ for i in range(360):
 import cv2
 import os
 
-baseDir = '/Users/mila/Documents/Outreach/AstroDataFeel/getData'
 
-def generate_video(image_folder= 'figures/', video_name = 'stars.avi', fps=10):
+def generate_video(image_folder= 'figures/', video_name = 'stars.avi', fps=10, baseDir = '/Users/mila/Documents/Outreach/AstroDataFeel/getData'):
     
     os.chdir(baseDir)
       
